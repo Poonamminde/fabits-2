@@ -1,10 +1,10 @@
 .app-container {
   display: flex;
   padding: 35px 25px;
+  background-color: rgba(244, 247, 254, 1);
 }
 #partition {
-  height: 100vh;
   width: 1px;
-  margin: -35px 20px;
+  margin: -35px 30px -35px 20px;
   background-color: rgba(211, 219, 236, 1);
 }
