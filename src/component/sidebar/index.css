@@ -75,3 +75,8 @@
   background-color: rgba(231, 237, 252, 1);
   border-radius: 8px;
 }
+@media (width<=400px) {
+  .aside-container {
+    display: none;
+  }
+}

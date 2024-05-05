@@ -56,6 +56,7 @@ const index = () => {
           backgroundColor: "rgba(253, 247, 232, 1)",
           borderRadius: "8px",
           padding: "5px",
+          margin: "15px",
           display: "flex",
           alignItems: "center",
         }}

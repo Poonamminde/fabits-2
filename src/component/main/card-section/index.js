@@ -1,5 +1,7 @@
 import React from "react";
 import Search from "../../../assets/card-section/search.svg";
+import Collapse from "../../../assets/card-section/collapse.svg";
+import Info from "../../../assets/card-section/info.svg";
 import FilterIcon from "../../../assets/card-section/filter_alt.svg";
 import DownArrow from "../../../assets/card-section/arrow_drop_down.svg";
 import Excellent from "../../../assets/card-section/Excellent.svg";
@@ -33,9 +35,14 @@ const index = () => {
             <img src={Search} alt="search" />
             <input type="text" placeholder="search" />
           </div>
+          <img src={Collapse} alt="collapse" id="collapse" />
         </div>
       </div>
       <hr />
+      <div id="info">
+        <img src={Info} alt="info" />
+        Tap on a card to view more information
+      </div>
       <div className="card-container">
         <Card
           data={{

@@ -1,0 +1,22 @@
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 15px 10px;
+  border-bottom: 1px solid rgb(52, 51, 51);
+  width: 100vw;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+.nav-subsection {
+  display: flex;
+  gap: 15px;
+  padding: 0px 10px;
+}
+#fabits-logo {
+  height: 21px;
+  width: 85px;
+}

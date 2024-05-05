@@ -25,7 +25,7 @@ import "./index.css";
  * Clicking on any plan icon should redirect the user to "MY LINKEDIN PAGE" on new tab.
  * @returns {JSX Element}
  */
-const Index = () => {
+const Index = ({ slides }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [display1, setDisplay1] = useState(false);
   const [display2, setDisplay2] = useState(true);
@@ -36,11 +36,11 @@ const Index = () => {
     if (currentIndex <= 0) {
       setDisplay1(false);
       setDisplay2(true);
-    } else if (currentIndex >= 14 - 6) {
+    } else if (currentIndex >= 14 - slides) {
       setDisplay2(false);
       setDisplay1(true);
     }
-  }, [currentIndex, display1, display2]);
+  }, [currentIndex, display1, display2, slides]);
   React.useEffect(() => {
     const handleNext = () => {
       try {
@@ -155,11 +155,15 @@ const Index = () => {
   };
   return (
     <div className="carousel-container">
+      <div className="carousel-heading">
+        <h2>What financial goal do you want to plan today?</h2>
+        <p>Select a goal to start planning</p>
+      </div>
       <Swiper
         modules={[Virtual, Navigation, Pagination]}
         virtual
         spaceBetween={10}
-        slidesPerView={6}
+        slidesPerView={slides}
         navigation={{
           nextEl: `.arrow-right`,
           prevEl: `.arrow-left`,

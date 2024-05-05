@@ -56,3 +56,34 @@
 .hide-icon {
   display: none;
 }
+.carousel-heading {
+  display: none;
+}
+@media (max-width: 400px) {
+  .carousel-container {
+    border-radius: 0px;
+  }
+  .carousel-heading {
+    display: block;
+  }
+  .carousel-heading h2 {
+    font-size: 20px;
+    color: rgba(45, 45, 45, 1);
+    font-weight: 600;
+  }
+  .carousel-heading p {
+    font-size: 14px;
+    padding-top: 10px;
+    font-weight: 400;
+    color: rgba(87, 87, 87, 1);
+  }
+  .carousel-details-card {
+    display: none;
+  }
+  .arrow-left {
+    display: none;
+  }
+  .arrow-right {
+    display: none;
+  }
+}
