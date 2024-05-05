@@ -1,5 +1,5 @@
 .aside-container {
-  width: 296px;
+  width: 20%;
   box-sizing: border-box;
 }
 .aside-nav {
@@ -61,6 +61,7 @@
   padding: 0px 15px;
   gap: 15px;
   margin: 0px;
+  cursor: pointer;
 }
 .aside-section h5 {
   color: rgba(45, 45, 45, 1);

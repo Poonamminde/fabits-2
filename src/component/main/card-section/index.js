@@ -9,6 +9,12 @@ import Poor from "../../../assets/card-section/poor.svg";
 import Card from "./card";
 import "./index.css";
 
+/**
+ * Card component to show plan details
+ * It contains filter, sort, search box in top section
+ * second section for plan cards
+ * @returns {JSX Element}
+ */
 const index = () => {
   return (
     <div className="main">

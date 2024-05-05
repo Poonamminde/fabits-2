@@ -2,6 +2,10 @@ import React from "react";
 import Vector from "../../../../../assets/card-section/green-vector.svg";
 import "../style.css";
 
+/**
+ * Excellent progress bar
+ * @returns {JSX Element}
+ */
 const index = () => {
   return (
     <div>

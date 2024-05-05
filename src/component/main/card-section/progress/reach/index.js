@@ -2,6 +2,10 @@ import React from "react";
 import Vector from "../../../../../assets/card-section/vavy-blue-vector.svg";
 import "../style.css";
 
+/**
+ * Reached progress bar
+ * @returns {JSX Element}
+ */
 const index = () => {
   return (
     <div>

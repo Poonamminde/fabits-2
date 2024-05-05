@@ -3,6 +3,10 @@ import Vector from "../../../../../assets/card-section/orange-vector.svg";
 import Emoji from "../../../../../assets/card-section/emoji_objects.svg";
 import "../style.css";
 
+/**
+ * Weak progress bar
+ * @returns {JSX Element}
+ */
 const index = () => {
   return (
     <div>

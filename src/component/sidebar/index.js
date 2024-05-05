@@ -12,6 +12,11 @@ import Insurance1 from "../../assets/insurance.svg";
 import Insurance2 from "../../assets/insurance2.svg";
 import "./index.css";
 
+/**
+ * Sider for contains Fabits logo, different icons , finance and insurance section
+ * On selecting any option in finance and insurance section that field get bordered and text colour get changed
+ * @returns {JSX Element}
+ */
 const Index = () => {
   const [element, setElement] = React.useState("");
   return (

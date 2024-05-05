@@ -1,6 +1,10 @@
 import React from "react";
 import "../style.css";
 
+/**
+ * Good progress bar
+ * @returns {JSX Element}
+ */
 const index = () => {
   return (
     <div>

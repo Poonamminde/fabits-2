@@ -1,0 +1,58 @@
+.carousel-container {
+  display: flex;
+  height: 224px;
+  flex-wrap: wrap;
+  background-color: white;
+  border-radius: 32px;
+  padding: 20px;
+  margin-bottom: 25px;
+  scroll-behavior: smooth;
+  align-items: center;
+}
+.carousel {
+  padding: 0px;
+  margin: 0px;
+  width: 72vw;
+  box-sizing: border-box;
+  display: flex;
+}
+.carousel-details-card {
+  padding: 20px;
+  width: 200px;
+  margin-left: -20px;
+  position: absolute;
+  position: relative;
+}
+.carousel-details-card h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 19px;
+  font-family: 600;
+}
+.carousel-details-card p {
+  font-size: 14px;
+  color: rgba(87, 87, 87, 1);
+  font-weight: 400;
+}
+.arrow {
+  position: absolute;
+  cursor: pointer;
+  top: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  background-color: rgba(217, 217, 217, 1);
+  height: 32px;
+  width: 32px;
+  z-index: 1;
+}
+.arrow-left {
+  left: 0px;
+}
+.arrow-right {
+  right: 0px;
+}
+.hide-icon {
+  display: none;
+}

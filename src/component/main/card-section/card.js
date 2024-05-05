@@ -6,6 +6,13 @@ import Poor from "./progress/poor";
 import Reach from "./progress/reach";
 import "./card.css";
 
+/**
+ * Card component for show plan card
+ * on clicking on card user wi;; get redirected to my linkedin page
+ * Progress component use for show progress using progress bar
+ * @param {Object} param0
+ * @returns {JSX Element}
+ */
 const index = ({ data }) => {
   return (
     <a
