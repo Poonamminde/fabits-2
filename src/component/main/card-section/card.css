@@ -61,3 +61,8 @@ a {
 hr {
   color: rgba(211, 219, 236, 1);
 }
+@media (max-width: 400px) {
+  .plan-card {
+    padding: 10px;
+  }
+}
